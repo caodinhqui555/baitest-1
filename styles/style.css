@@ -1,0 +1,98 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+body{
+	background-image: url("../images/background.jpg")
+}
+.navbar-inverse{
+	background-color:white !important;
+	font-size:1.2em;
+	margin-bottom:0px;
+	border-radius:0px;
+	border:0px;
+	height: 100px
+}
+.navbar .container-fluid
+{
+	background-color:white;
+	width: 80%;
+	margin: auto;
+}
+header{
+	background-color:white;
+}
+.navbar-header .navbar-brand>img{
+	width: 55%;
+	background-color:white;
+
+}
+.navbar-header .navbar-brand>img>a{
+
+}
+.navbar>div>ul>li{	
+	background-color:white;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	
+}
+.navbar>div>ul>li>a{
+	color:black !important;
+	border-left: 1px solid
+}
+.navbar>div>ul>li>a:hover{
+	color:red !important;
+	border-left: 1px solid black
+}
+.navbar>div>ul>li:hover{
+	border-bottom: 3px solid red;	
+	padding-bottom: 17px;
+}
+
+#myCarousel{
+	width: 80%;
+	margin: auto;
+	padding-top: 50px
+}
+
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-control.right {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+#contact{
+	width: 55%;
+	margin: auto;
+	background-color: white;
+	margin-top: 100px
+}
+.ico{
+	width: 35%;
+}
+#content{
+	width: 55%;
+	margin: auto;
+	background-color: white;
+	margin-top: 50px
+}
+
+.nd{
+	padding-top: 50px
+}
+.nd>h5{
+	padding-top: 0px;
+	margin-top: 0px
+}
